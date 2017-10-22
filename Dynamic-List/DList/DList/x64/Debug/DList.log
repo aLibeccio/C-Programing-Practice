@@ -1,3 +1,13 @@
 ﻿  DList.c
+d:\github\c-programing-practice\dynamic-list\dlist\dlist\dlist.c(62): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 参见“scanf”的声明
+d:\github\c-programing-practice\dynamic-list\dlist\dlist\dlist.c(102): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 参见“scanf”的声明
+d:\github\c-programing-practice\dynamic-list\dlist\dlist\dlist.c(105): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 参见“scanf”的声明
+d:\github\c-programing-practice\dynamic-list\dlist\dlist\dlist.c(118): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 参见“scanf”的声明
+d:\github\c-programing-practice\dynamic-list\dlist\dlist\dlist.c(245): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.14393.0\ucrt\stdio.h(1269): note: 参见“scanf”的声明
   DList.vcxproj -> D:\GitHub\C-Programing-Practice\Dynamic-List\DList\x64\Debug\DList.exe
   DList.vcxproj -> D:\GitHub\C-Programing-Practice\Dynamic-List\DList\x64\Debug\DList.pdb (Partial PDB)

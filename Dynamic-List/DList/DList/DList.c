@@ -26,6 +26,8 @@ void nodeErgodic();
 int deleteNode();
 void deleteinform(int flag);
 void displayBeginAndEnd();
+int findSpecificID();
+void findInform();
 //--------------------函数声明--------------------
 
 int main()
@@ -49,9 +51,9 @@ int main()
 
 void displayMenu()
 {
-    printf("===================主菜单===================\n");
+    printf("======================================主菜单======================================\n");
     printf("请输入功能键对应的数字进行操作：\n");
-    printf("1、显示已输入的所有数据    2、建立数据    3、删除数据    4、退出\n");
+    printf("1、显示已输入的所有数据    2、建立数据    3、删除数据    4、查找数据    5、退出\n");
 
 }
 
@@ -82,6 +84,10 @@ int menuSelect()
         flag = 0;//不退出
         break;
     case 4:
+        findInform(findSpecificID());
+        flag = 0;
+        break;
+    case 5:
         flag = 1;//退出
         break;
     default:
@@ -301,4 +307,43 @@ void displayBeginAndEnd()
 {
     printf("此时的链表头地址是：%p\n", beginNode);
     printf("此时的链表尾地址是：%p\n", endNode);
+}
+
+int findSpecificID()
+{
+    Student* startPointer = beginNode;
+    int specificID;
+    int record = 1;
+    if(startPointer == NULL)
+    {
+        printf("当前链表中无任何节点，返回主菜单\n");
+        return 0;   //查找失败
+    }
+    else
+    {
+        pritf("请输入你想查找的ID:\n");
+        while(1)
+        {
+            if(startPointer->stuID = specificID)
+                break;
+            else if(startPointer->nextNode == NULL)
+                break;
+            startPointer = startPointer->nextNode;
+        }
+        if(startPointer->nextNode == NULL)
+            return 0;
+        else
+        {
+            printf("已找到该节点，位于头节点后第%d个\n", record - 1);
+            return 1;
+        }
+    }
+}
+
+void findInform(int flag)
+{
+    if(flag == 0)
+        printf("查找失败\n");
+    else
+        printf("查找成功\n");
 }
